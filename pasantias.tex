@@ -1,0 +1,54 @@
+\setuppapersize[A4][A4]
+\mainlanguage[es]
+%\showframe %muestra líneas guía en el pdf
+\setuplayout[
+	backspace=3cm,%distancia entre el borde izquierdo y el cuerpo
+	header=4cm,%tamaño del encabezado
+	height=25.7cm, %alto del cuerpo (entre el comienzo del encabezado y el fin del pie de página)
+	width=15cm, %ancho del cuerpo
+	footer=0.5cm,%tamaño del pie de página
+	topspace=1.5cm,%distancia entre el borde y el comienzo del encabezado
+	bottomspace=1.5cm
+	]
+%FONTS
+\setupbodyfont[TeX Gyre Heros,13pt]
+		
+%HEADER
+\setupheader[
+	state=stop,
+	style=\tfx\bf\ss 
+	]
+\setupheadertexts[][{Made with \CONTEXT}]
+\setuppagenumbering[location=] %este comando suprime la numeración 
+
+%FOOTER
+\setupfooter[
+	state=start,
+	style=\tfx\bf\ss
+	]
+\setupfootertexts[][{Made with \CONTEXT}]
+
+%TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+\starttext
+\startalignment[right]
+Portoviejo, 29 de agosto de 2018
+\blank[4*big]
+Ing. Leonardo Hidalgo Álava\\{\bf{Director de Gestión Ambiental del GAD provincial de Manabí}}
+\blank[2*big]
+{\bf{Asunto:}} Solicitud de pasantías
+\stopalignment
+\blank[big]
+\startalignment
+Yo, CARLOS ALEJANDRO BOWEN QUIROZ, con C.I. 1312953811, egresado de Ingeniería Ambiental en la Universidad de Cuenca, Ecuador, solicito permitirme realizar pasantías en el Departamento de Gestión Ambiental del GAD provincial de Manabí, con el objetivo de afianzar mis conocimientos y adquirir experiencia en el campo laboral.
+\blank
+Sin otro particular, me suscribo de usted.
+\blank[4*big]
+\stopalignment
+\startalignment[center]
+Atentamente:
+\blank[4*big]
+__________________\par
+Carlos Alejandro Bowen Quiroz
+\stopalignment
+
+\stoptext
