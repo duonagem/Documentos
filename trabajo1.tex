@@ -1,0 +1,31 @@
+\usecolors[xwi]
+\setuphead [chapter] [style=\tfc\bf,after=\hairline,color=darkblue]
+\setupalign [right]
+
+\setupheadertexts [ConTEXt Proyect]
+
+\starttext
+\placecontent
+\chapter{Introducción}
+\chapter{Materiales y métodos}
+	\section{Material particulado}
+\subsection{PM10}
+\subsection{PM 2.5}
+\section[microcuenca]{Microcuenca}
+\subsection{Parte alta}
+\subsection{Parte media y baja}
+
+\placeformula[eq:pythagoras]
+\startformula
+a^2+b^2=c^2
+\stopformula
+
+\chapter{Resultados y discusión}
+\section{NDVI}
+\section{NDWI}
+
+In \in{section}{,}[microcuenca] chaptered \about[microcuenca], we describe how a cross reference can be defined. This section starts at page~\at[microcuenca] and is part of chapter~\in[microcuenca].
+
+\chapter{Bibliografía}
+
+\stoptext

@@ -1,0 +1,94 @@
+open source     > level 1, order 1, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2018.08.30 18:41 MKIV beta  fmt: 2018.8.31  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 2, order 2, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'texto-2', input './texto-2', result 'texto-2'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+system          > synctex functionality is enabled, expect 5-10 pct runtime overhead!
+open source     > level 2, order 3, name 'C:/Users/duonagem/Desktop/respaldo_duonagem/Documents/ConText/trabajo1/texto-2.tex'
+fonts           > preloading latin modern fonts (second stage)
+fonts           > 'fallback modern-designsize rm 12pt' is loaded
+structure       > sectioning > chapter @ level 2 : 0.1 -> Title of chapter
+backend         > xmp > using file 'C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+close source    > level 2, order 3, name 'C:/Users/duonagem/Desktop/respaldo_duonagem/Documents/ConText/trabajo1/texto-2.tex'
+close source    > level 1, order 3, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > start used files
+
+system          > text: texto-2
+
+system          > stop used files
+
+
+system          > start used files
+
+system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua usedmethod=database
+system          >    2: filename=cont-yes.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    4: filename=cont-new.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=C:\Users\duonagem\Desktop\respaldo_duonagem\Documents\ConText\trabajo1/texto-2.tex foundname=C:/Users/duonagem/Desktop/respaldo_duonagem/Documents/ConText/trabajo1/texto-2.tex fullname=C:/Users/duonagem/Desktop/respaldo_duonagem/Documents/ConText/trabajo1/texto-2.tex usedmethod=direct
+system          >    8: filename=lm.lfg filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >    9: filename=lmroman12-regular filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman12-regular.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
+system          >   10: filename=latinmodern-math.otf filetype=opentypefonts foundname=C:/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+system          >   11: filename=lpdf-pdx.xml filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+
+system          > stop used files
+
+
+system          > start commandline options
+
+system          > currentrun="1"
+system          > fulljobname="./texto-2.tex"
+system          > input="./texto-2.tex"
+system          > kindofrun="1"
+system          > maxnofruns="9"
+system          > no-parse-first-line="true"
+system          > synctex="true"
+
+system          > stop commandline options
+
+
+system          > start commandline files
+
+system          >    1: ./texto-2.tex
+
+system          > stop commandline files
+
+
+modules         > start used modules
+
+
+modules         > stop used modules
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: C:/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.009 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 11 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 440 modules (0.255 sec), 93 tables (0.016 sec), 533 chunks (0.271 sec)
+mkiv lua stats  > traced context: maxstack: 1328, freed: 0, unreachable: 1328
+mkiv lua stats  > cleaned up reserved nodes: 59 nodes, 9 lists of 455
+mkiv lua stats  > node memory usage: 2 glue, 2 kern, 2 penalty, 14 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 57 calls
+mkiv lua stats  > synctex tracing: 2 referenced files, 4 files ignored, 7 objects flushed, logfile: texto-2.synctex
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 167, file: 159, direct: 2, late: 6, function 521, total: 855
+mkiv lua stats  > randomizer: resumed with value 0.59132663960692
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > result saved in file: texto-2.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 2 files: latinmodern-math.otf, lmroman12-regular.otf
+mkiv lua stats  > font engine: otf 3.104, afm 1.513, tfm 1.000, 7 instances, 3 shared in backend, 3 common vectors, 0 common hashes, load time 0.275 seconds 
+mkiv lua stats  > used platform: mswin, type: windows, binary subtree: texmf-mswin
+mkiv lua stats  > used engine: luatex version 1.08 with functionality level 6909, banner: this is luatex, version 1.08.0 (tex live 2018/w32tex)
+mkiv lua stats  > control sequences: 45321 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 60 MB (ctx: 59 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.601 seconds, 1 processed pages, 1 shipped pages, 1.664 pages/second
+
