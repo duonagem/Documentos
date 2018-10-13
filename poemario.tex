@@ -1,11 +1,66 @@
-\setuppagenumbering[state=stop]
+\setuppapersize[A5, portrait]
+\showframe
+\setuppagenumbering[
+		state=start,
+		alternative=singlesided,
+		location=footer
+		]
+
+\setuplayout[
+		backspace=1.5cm,
+		width=10cm,
+		leftmargin=1cm,
+		marginedge=0.5cm
+		]
+
+
+\setupbodyfont[termes, 11pt]
+
+\setuphead[title][
+		header=empty,
+		footer=empty,
+		style=\tfd\bf,
+		align=middle
+		]
+\setuphead[subject][
+		style=\tfc\bf,
+		after=\hairline
+		]
+\setuphead[subsubject][
+		style=\tfb\bf
+		]
+
 \starttext
-\title[Poesía introvertida]
-\chapter[Crítica al amor]
-\chapter[Deconstrucción sentimental]
+\title{Poesía introvertida}
+Un acercamiento al doloroso\\
+e intrigante mundo\\
+de los amantes introvertidos.
 
 
+\page
+\subject{Unas cuantas críticas al amor}%Secciones
 
+\subsubject{Saberte ajena}%Títulos de los poemas
+Ni estrellas ni flores,\\
+ni la luna en el zenit,\\
+te impresionan suficiente,\\
+para abandonar la vid.\blank[big]
 
+Te susurran los vientos\\
+canciones añejas,\\
+pero tú no te dejas,\\
+son melodías muertas.\blank[big]
+
+¡Qué pena saberte ajena!\\
+Inútil es querer ignorarlo,\\
+pues amarte es hazaña,\\
+aunque no pueda intentarlo.\blank[big]
+\page
+
+\page
+\subject{Deconstrucción sentimental}
+
+\page
+\subject{Delirios de medianoche}
 
 \stoptext
