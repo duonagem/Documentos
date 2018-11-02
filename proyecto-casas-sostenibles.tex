@@ -1,0 +1,80 @@
+\setuppapersize[A4]
+\setuplayout[
+		leftmargin=2cm,
+		width=15cm,
+		header=1cm,
+		footer=1cm
+		]
+
+\setupheader[state=stop]
+\setupfooter[state=start]
+\setupfootertexts[Hecho en \CONTEXT][\pagenumber]
+\setupbodyfont[pagella, 12pt]
+
+\setuphead
+		[title][
+		style=\tfd\bf,
+		alternative=middle,
+		after={\blank[0.5cm]},
+		]
+\setuphead
+		[subject][
+		style=\tfb\bf,
+		color=blue
+		]
+\setuphead[subsubject][
+		style=\tfa\bf,
+		color=blue
+		]
+
+%%%%%STARTTEXT%%%%%
+\starttext
+
+\title{Casas sostenibles}
+\middlealigned{Un acercamiento al desarrollo sostenible}
+\page
+
+\subject[preview]{Antecedentes}
+Se puede obtener energía de casi cualquier cosa. La tecnología actual nos permite hacerlo. Las formas mas comunes de obtener energía en nuestro medio es mediante centrales térmicas e hidroeléctricas. Si bien esta última se oferta como una fuente de energía limpia, su impacto ambiental está lejos de ser pequeño. Y ni hablar de las centrales térmicas, cuyo funcionamiento se basa en la quema de combustibles fósiles (carbón, diesel, entre otros).\blank[big]
+
+La energía proveniente del sol es prácticamente infinita. Diariamente nos llegan millones de vatios de energía en forma de radiación. Esta puede ser aprovechada mediante paneles solares, que transforman la radiación en corriente eléctrica aprovechable.\blank[big]
+
+El sol influye en todos los aspectos de nuestro planeta. Tanto así que su energía se refleja en los flujos de aire de la atmósfera, generando los vientos. En algunas zonas de nuestro planeta los vientos son aprovechables por la fuerza que llegan a alcanzar. El aprovechamiento se realiza mediante aerogeneradores gigantes. No obstante, existen alternativas de aerogeneradores más compactos, ideales para hogares o edificios ubicados en zonas de vientos fuertes.\blank[big]
+
+El agua es vital para todos los seres vivos del planeta. Su uso es indispensable para los humanos en la mayoría de tareas del día a día. Por desgracia, el agua es finita, y no siempre es apta para utilizarse. Los costos de purificación son muy altos y, muchas veces, agua potable se utiliza para actividades derrochadoras, como lavar un vehículo. El agua lluvia es escasamente aprovechada, incluso ignorada. Aprovechar la lluvia puede ahorrar gran parte del gasto de agua potable si se la utiliza en actividades de no consumo, como descargas de inodoros, lavado de pisos o riego.\blank[big]
+
+
+\page
+
+\subject[objectives]{Objetivos del proyecto}
+	\startitemize[z, packed]
+		\item Fomentar el desarrollo sostenible en los hogares de la provincia de Manabí
+		\item
+	\stopitemize
+	
+
+\subject[energy]{Fuentes de energía alternativas}
+
+
+	\subsubject[sun]{Energía solar}
+
+
+	\subsubject[wind]{Energía eólica}
+
+
+\subject[rain]{Aprovechamiento de aguas lluvias}
+
+
+\subject[solid]{Gestión de residuos domésticos}
+
+
+\subject[green]{Techos verdes y jardines verticales}
+
+
+\subject[bang]{Programa de ahorro energético}
+
+
+\subject[Ecoarch]{Ecoarquitectura}
+
+
+\stoptext
