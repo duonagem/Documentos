@@ -4,7 +4,7 @@ utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
  ["file"]="poemario",
  ["format"]="cont-en",
- ["stamp"]="2018.09.26 14:26",
+ ["stamp"]="2018.12.01 13:20",
  ["version"]=1.31,
 }
 
@@ -106,16 +106,16 @@ utilitydata.structures.counters.collected={
   { 0, 0 },
  },
  ["realpage"]={
-  { 4 },
+  { 6 },
  },
  ["subpage"]={
-  { 4 },
+  { 6 },
  },
  ["table"]={
   { 0, 0 },
  },
  ["userpage"]={
-  { 4 },
+  { 6 },
  },
 }
 
@@ -171,7 +171,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=4,
-   ["realpage"]=3,
+   ["realpage"]=4,
    ["section"]=0,
   },
   ["titledata"]={
@@ -185,7 +185,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=5,
-   ["realpage"]=4,
+   ["realpage"]=6,
    ["section"]=0,
   },
   ["titledata"]={
@@ -223,6 +223,20 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=4,
+  ["numberdata"]=10,
+  ["prefixdata"]=11,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=10,
+  ["prefixdata"]=11,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
   ["numberdata"]=10,
   ["prefixdata"]=11,
   ["state"]="start",

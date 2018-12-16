@@ -1,40 +1,48 @@
 \setuppapersize[A5, portrait]
 \showframe
 \setuppagenumbering[
-		state=start,
-		alternative=singlesided,
-		location=footer
+		alternative=doublesided,
+		location={lower,middle}
 		]
+		
+\setupheader[align=middle]
+\setupheadertexts[Poesía introvertida][]
+\setupfootertexts[][Alejandro Bowen]
 
 \setuplayout[
-		backspace=1.5cm,
+		backspace=2.4cm,
 		width=10cm,
-		leftmargin=1cm,
-		marginedge=0.5cm
+		height=fit,
+		width=middle,
+		header=15pt,
+		footer=15pt
 		]
 
 
-\setupbodyfont[termes, 11pt]
+\setupbodyfont[pagella, 10pt]
 
 \setuphead[title][
+		style=\bfc,
+		align=middle,
+		page=yes,
 		header=empty,
 		footer=empty,
-		style=\tfd\bf,
-		align=middle
+		before={\blank[5*big]}
 		]
 \setuphead[subject][
-		style=\tfc\bf,
-		after=\hairline
+		style=\bfb,
+		after=\hairline,
+		page=left,
 		]
 \setuphead[subsubject][
-		style=\tfb\bf
+		style=\bfa,
+		page=yes
 		]
-
+		
 \starttext
+
 \title{Poesía introvertida}
-Un acercamiento al doloroso\\
-e intrigante mundo\\
-de los amantes introvertidos.
+
 
 
 \page
@@ -54,13 +62,10 @@ son melodías muertas.\blank[big]
 ¡Qué pena saberte ajena!\\
 Inútil es querer ignorarlo,\\
 pues amarte es hazaña,\\
-aunque no pueda intentarlo.\blank[big]
-\page
+aunque no pueda intentarlo.
 
-\page
 \subject{Deconstrucción sentimental}
 
-\page
 \subject{Delirios de medianoche}
 
 \stoptext
